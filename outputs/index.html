@@ -56,35 +56,94 @@
             <div class="card-top"><span class="card-number">01</span><span class="card-symbol" aria-hidden="true">↗</span></div>
             <p class="card-label">HISTORY & CONTEXT</p>
             <h3 id="outcome-1-title">Explain key moments in the historical development of AI and ML and relate them to modern AI systems.</h3>
-            <p class="evidence"><span></span>The 1973 Lighthill Report marked the moment AI had to answer for its promises, and it only makes sense in light of how the field got there. After researchers at the 1956 Dartmouth workshop named the field, early programs like the Logic Theorist and ELIZA produced impressive results by representing knowledge as symbols and rules, and optimism ran far ahead of what the systems could do. By the early 1970s these systems could not handle real-world complexity, computing power was far too limited, and demos worked only on narrow, curated examples. The Lighthill Report told the UK government that AI had failed to deliver, and funding collapsed on both sides of the Atlantic, which began the first AI winter. This was a significant historical moment because it showed that technical progress and public expectations can drift apart, and that the whole field pays for the gap.
-
-Since then the pattern has repeated and evolved. AI recovered in the 1980s through expert systems like MYCIN, which captured a human expert’s rules for one domain, but they proved brittle outside those rules and a second winter followed. That failure pushed researchers toward learning from data, which led to the deep learning breakthrough of 2012 and the generative systems of today. I see the same lesson in self-driving cars. In the mid-2010s, autonomous vehicles handled highways and mapped routes so smoothly that many companies predicted driverless cars within a few years, and then rare situations like unusual construction zones or a person directing traffic by hand exposed how narrow that success was. These systems learn from data rather than hand-written rules, so the lesson is not that rules were the only problem. Strong performance on typical cases does not guarantee strong performance on unusual ones, and I now judge any AI demo by whether it shows the hard cases.</p>
+            <div class="outcome-content">
+              <h4>The Beginning of Artificial Intelligence</h4>
+              <p>The development of artificial intelligence has been shaped by periods of major progress and disappointment, and each period changed how researchers approached the field. AI officially began as a research field at the 1956 Dartmouth workshop, where researchers introduced the goal of creating machines capable of simulating human intelligence. Early programs such as Logic Theorist demonstrated that computers could solve mathematical problems using symbolic reasoning. However, these systems relied heavily on predefined rules and struggled with problems involving real-world complexity. The 1973 Lighthill Report criticized the progress of AI research in the United Kingdom, arguing that researchers had failed to meet their promises. This contributed to reduced government funding and the first AI winter, a period when interest and investment in AI declined. This historical event demonstrated how unrealistic expectations and limited technology can slow the development of an entire field.</p>
+              <h4>The Shift Toward Learning From Data</h4>
+              <p>The next major development came through expert systems, which attempted to reproduce human expertise using programmed rules. One example was MYCIN, a medical expert system developed at Stanford University during the 1970s. It used approximately 450 rules to identify bacterial infections and recommend treatments based on patient information. Although MYCIN performed well in medical evaluations, it was limited to a narrow area of medicine and could not easily adapt to situations outside its programmed knowledge. A later breakthrough came in 2012 when Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton developed AlexNet, a deep convolutional neural network that significantly improved image recognition. Their system achieved a 15.3 percent error rate in the ImageNet competition, compared with 26.2 percent for the second-best entry. This demonstrated how machine learning could discover patterns from large amounts of data instead of depending entirely on human-written rules.</p>
+              <h4>Connecting Historical Progress to Modern AI</h4>
+              <p>These developments explain how modern AI systems evolved from rule-based programs into models trained on large datasets. Today's systems, including facial recognition, autonomous vehicles, and generative AI, build on advances in machine learning and deep learning. However, the earlier limitations of AI still matter. MYCIN showed that a system can perform well in a specific environment without being able to handle every situation, while the first AI winter showed the consequences of expecting more from technology than it can deliver. The development of AI therefore demonstrates that progress depends on both technical improvements and realistic expectations. When evaluating modern AI, I think it is important to look beyond impressive demonstrations and consider how reliably a system performs in unfamiliar situations.</p>
+              <h4>Sources</h4>
+              <ul class="source-list">
+                <li><a href="https://plato.stanford.edu/entries/artificial-intelligence/">https://plato.stanford.edu/entries/artificial-intelligence/</a></li>
+                <li><a href="https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf</a></li>
+              </ul>
+            </div>
           </section>
           <section class="outcome-card" id="outcome-2" aria-labelledby="outcome-2-title" data-index="02">
             <div class="card-top"><span class="card-number">02</span><span class="card-symbol" aria-hidden="true">◎</span></div>
             <p class="card-label">ETHICS & SOCIETY</p>
             <h3 id="outcome-2-title">Identify and discuss ethical issues associated with AI and ML and their societal implications.</h3>
-            <p class="evidence"><span></span>Facial recognition in policing shows how an AI system can work and still cause serious harm. In 2020, Robert Williams was wrongfully arrested in Detroit after a facial recognition match misidentified him as a shoplifting suspect. The event touches all three ways a working system can go wrong. On fairness, algorithmic bias is well documented in these systems, and a 2019 federal study found higher false match rates for Black and Asian faces than for white faces, so the same tool applied to everyone produces different error rates for different groups. On calibrated trust, a match is only a lead, but it carries the authority of a computer output, and the system does not signal how confident it is or when it is likely to be wrong. That is how a weak guess can be treated as strong evidence. On misuse, the dual-use problem appears because a tool built to find suspects can also track protesters or ordinary people in public spaces.
-
-The regulation gap resembles the one seen with hiring audits, where a law on paper is not the same as a law that works. Some cities and states have restricted police use while no comprehensive federal law exists, so protection depends on where someone lives. The societal implications fall hardest on people who are already most likely to be stopped, and a wrongful arrest can cost someone their job, their reputation, and their trust in public institutions. What I take from this is that average accuracy is the wrong measure. A system can be accurate overall and still fail the people least able to absorb the failure. Applying fairness, calibrated trust, and dual use to a new setting showed me they work as a general framework, and they belong at the start of design rather than after harm occurs.</p>
+            <div class="outcome-content">
+              <h4>Bias and Fairness in AI Systems</h4>
+              <p>Facial recognition in policing demonstrates how an AI system can produce serious consequences even when it is being used for an intended purpose. In January 2020, Robert Williams was wrongfully arrested in Detroit after facial recognition technology incorrectly identified him as a suspect in a shoplifting case. He spent approximately 30 hours in police custody before being released. This case demonstrates the ethical issue of algorithmic bias and the importance of human oversight. A 2019 National Institute of Standards and Technology (NIST) study examined facial recognition algorithms and found that false positive rates differed across demographic groups. Depending on the algorithm, some groups experienced substantially higher false match rates than others. This means that an AI system can perform differently depending on the people being evaluated, creating unequal risks when the technology is used by law enforcement.</p>
+              <h4>Privacy, Misuse, and Accountability</h4>
+              <p>Another ethical concern is the potential misuse of AI systems. Facial recognition can help identify suspects, but the same technology can also be used to monitor protesters, track individuals in public spaces, or identify people without their knowledge or permission. This creates a dual-use problem because technology developed for security purposes can also threaten individual privacy. The U.S. Commission on Civil Rights addressed these concerns in a 2024 report examining federal government use of facial recognition. The report found that meaningful federal guidelines and oversight had not kept pace with the technology's real-world use. It also noted that no federal laws specifically regulate the government's use of facial recognition technology. This raises questions about accountability when AI systems make mistakes or are used in ways that violate individual rights.</p>
+              <h4>Evaluating the Societal Impact</h4>
+              <p>Together, these examples show that ethical AI requires more than technical accuracy. Fairness means evaluating whether a system produces unequal error rates across different groups. Privacy means considering how collected information can be used beyond its original purpose. Accountability means ensuring that organizations and individuals remain responsible for decisions made with AI assistance. The consequences of these issues can include wrongful arrests, discrimination, loss of privacy, and reduced public trust in institutions. What I take from these examples is that average accuracy is not enough to determine whether an AI system is safe or ethical. A system can perform well overall while still causing serious harm to certain groups. Ethical considerations should therefore be included during the design and testing process rather than addressed only after problems occur.</p>
+              <h4>Sources</h4>
+              <ul class="source-list">
+                <li><a href="https://abcnews.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751">https://abcnews.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751</a></li>
+                <li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf">https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf</a></li>
+                <li><a href="https://usccr.gov/reports/2024/civil-rights-implications-federal-use-facial-recognition-technology">https://usccr.gov/reports/2024/civil-rights-implications-federal-use-facial-recognition-technology</a></li>
+              </ul>
+            </div>
           </section>
           <section class="outcome-card" id="outcome-3" aria-labelledby="outcome-3-title" data-index="03">
             <div class="card-top"><span class="card-number">03</span><span class="card-symbol" aria-hidden="true">⌘</span></div>
             <p class="card-label">SEARCH & REASONING</p>
             <h3 id="outcome-3-title">Describe how core AI techniques such as search and adversarial reasoning are used to model intelligent behavior.</h3>
-            <p class="evidence"><span></span> Evidence coming soon</p>
+            <div class="outcome-content">
+              <h4>Search as a Model of Decision Making</h4>
+              <p>Search and adversarial reasoning model intelligent behavior by turning a decision into a structured problem that an agent can explore, and the main lesson from class is that the heuristic matters as much as the search. A* reaches a goal while examining fewer states than breadth first search because its heuristic estimates the remaining cost, and minimax with alpha beta pruning extends the idea to an opponent who answers every move. IBM’s Deep Blue shows how far this approach can scale. It defeated Garry Kasparov in 1997 by evaluating about 200 million chess positions per second on 32 processors, which shows that fast search over a well evaluated tree can beat the best human player.</p>
+              <h4>Where Classical Search Breaks Down</h4>
+              <p>Two other cases show the limits of this approach. Go is a harder test because the AlphaGo paper estimates roughly 250 legal moves per turn and games lasting about 150 moves, which makes exhaustive search infeasible. AlphaGo therefore paired Monte Carlo tree search with a policy network that selects promising moves and a value network that evaluates positions, so learned networks took over the job of the heuristic. Poker exposes a different limit. Pluribus beat elite professionals at six player no limit Texas hold’em in 2019, even though hidden cards and several opponents break the assumptions behind minimax, and it did so through self play and a lookahead method designed for imperfect information.</p>
+              <h4>Matching Algorithms to Problems</h4>
+              <p>Together, these cases show that search remains the framework while the evaluation function is the part that evolves. Without a good evaluation function, even very fast search cannot choose well among the positions it reaches. Every technique also carries assumptions, such as a fully visible state and a single opponent, that determine where it stops working. Matching an algorithm to the structure of the problem is therefore the first design decision and not a detail to settle afterward.</p>
+              <h4>Sources</h4>
+              <ul class="source-list">
+                <li><a href="https://www.ibm.com/history/deep-blue">https://www.ibm.com/history/deep-blue</a></li>
+                <li><a href="https://doi.org/10.1038/nature16961">https://doi.org/10.1038/nature16961</a></li>
+                <li><a href="https://doi.org/10.1126/science.aay2400">https://doi.org/10.1126/science.aay2400</a></li>
+              </ul>
+            </div>
           </section>
           <section class="outcome-card" id="outcome-4" aria-labelledby="outcome-4-title" data-index="04">
             <div class="card-top"><span class="card-number">04</span><span class="card-symbol" aria-hidden="true">⤴</span></div>
             <p class="card-label">MACHINE LEARNING</p>
             <h3 id="outcome-4-title">Explain fundamental machine learning approaches and distinguish between major learning paradigms.</h3>
-            <p class="evidence"><span></span> Evidence coming soon</p>
+            <div class="outcome-content">
+              <h4>Learning Paradigms Defined by Feedback</h4>
+              <p>The major learning paradigms differ in the feedback a system receives, and that signal is the defining feature of each. Supervised learning trains on labeled examples, unsupervised learning looks for structure with no labels, and reinforcement learning improves from rewards received after acting. Reinforcement learning differs from the other two because its feedback is often delayed, so the system must work out which earlier actions deserve credit for a later reward. Esteva and colleagues give a clear supervised example. They trained a convolutional neural network on 129,450 dermatologist labelled clinical images covering 2,032 diseases and found that it matched 21 board certified dermatologists at classifying skin lesions, which shows how much value the labels carry.</p>
+              <h4>Unsupervised and Blended Approaches</h4>
+              <p>Perou and colleagues show the unsupervised case. They clustered gene expression data from 65 breast tumor specimens measured across 8,102 genes and found that the tumors separated into subtypes with pervasive differences in expression, even though no one had labeled the groups beforehand. Their hierarchical clustering follows the same merge the closest idea used to group songs in class, applied to medicine. Clustering of this kind is useful precisely because the groups emerge from the data instead of from a preset answer key. Ouyang and colleagues show how paradigms can be combined. They fine tuned GPT-3 on labeler demonstrations, collected human rankings of model outputs, and then used reinforcement learning to optimize the model against those rankings. The resulting 1.3 billion parameter InstructGPT was preferred by evaluators over the 175 billion parameter GPT-3.</p>
+              <h4>Choosing an Approach</h4>
+              <p>That last pipeline uses human judgments the way supervised learning uses labels while optimizing a reward the way Q-learning does. A paradigm is therefore best identified by the signal driving the learning, and real systems often layer several signals. Choosing an approach starts with identifying what feedback is actually available, since that, more than the algorithm, decides what the system can learn.</p>
+              <h4>Sources</h4>
+              <ul class="source-list">
+                <li><a href="https://doi.org/10.1038/nature21056">https://doi.org/10.1038/nature21056</a></li>
+                <li><a href="https://arxiv.org/abs/2203.02155">https://arxiv.org/abs/2203.02155</a></li>
+              </ul>
+            </div>
           </section>
           <section class="outcome-card outcome-card-wide" id="outcome-5" aria-labelledby="outcome-5-title" data-index="05">
             <div class="card-top"><span class="card-number">05</span><span class="card-symbol" aria-hidden="true">✳</span></div>
             <p class="card-label">GENERATIVE AI & LLMS</p>
             <h3 id="outcome-5-title">Describe how generative AI and large language models operate at a conceptual level and evaluate their appropriate use.</h3>
-            <p class="evidence"><span></span> Evidence coming soon</p>
+            <div class="outcome-content">
+              <h4>How Large Language Models Generate Text</h4>
+              <p>A large language model is a transformer network trained on large amounts of text to predict the next token given everything before it. It uses an attention mechanism that weighs the relevance of every earlier word at once, and it generates a response by repeatedly choosing a likely continuation. Nothing in that process checks whether a statement is true, so fluent output can still be wrong, and appropriate use depends on what an undetected error would cost.</p>
+              <h4>Evidence of Risk and Benefit</h4>
+              <p>Three outside cases show the range. In Mata v. Avianca, a federal court sanctioned lawyers in 2023 for filing a brief that cited non existent cases generated by ChatGPT, which shows what happens when fluency is mistaken for verification. In Moffatt v. Air Canada, a British Columbia tribunal held the airline responsible in 2024 after its website chatbot wrongly told a grieving customer he could claim a bereavement fare after travel. The tribunal rejected the argument that the chatbot was a separate entity and ordered the airline to pay $812.02 in damages and fees. The positive case comes from a controlled experiment in which developers using GitHub Copilot completed a JavaScript programming task 55.8 percent faster than developers without it.</p>
+              <h4>Evaluating Appropriate Use</h4>
+              <p>Taken together, the cases suggest these systems suit work whose output is quick to check, such as code that can be run and tested. They suit work poorly when a wrong answer is costly and hard to detect, such as legal citations or customer commitments, unless the output is grounded in sources and reviewed by a person. The decision to use a language model should therefore rest on the cost of an error more than on how convincing the output sounds, and responsibility for verification stays with the people who deploy it.</p>
+              <h4>Sources</h4>
+              <ul class="source-list">
+                <li><a href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/">https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/</a></li>
+                <li><a href="https://mobilesyrup.com/2024/02/16/air-canada-has-to-pay-for-chatbot-mistake/">https://mobilesyrup.com/2024/02/16/air-canada-has-to-pay-for-chatbot-mistake/</a></li>
+                <li><a href="https://arxiv.org/abs/2302.06590">https://arxiv.org/abs/2302.06590</a></li>
+              </ul>
+            </div>
           </section>
         </div>
       </div>
@@ -139,3 +198,4 @@ The regulation gap resembles the one seen with hiring audits, where a law on pap
   <script src="navigation.js" defer></script>
 </body>
 </html>
+
